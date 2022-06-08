@@ -23,14 +23,14 @@ const SinglePlanetView = () => {
                 </div>
                 <div className="col-7">
                     <div className="fs-3 ms-5 fw-bold mb-3 text-primary border-bottom border-primary border-5">{store.singlePlanet.name}</div>
-                    <div className="fs-5 ms-5 text-light">Diameter: {store.singlePlanet.diameter}</div>
-                    <div className="fs-5 ms-5 text-light">Rotation Period: {store.singlePlanet.rotation_period}</div>
-                    <div className="fs-5 ms-5 text-light">Orbital Period: {store.singlePlanet.orbital_period}</div>
-                    <div className="fs-5 ms-5 text-light">Gravity: {store.singlePlanet.gravity}</div>
-                    <div className="fs-5 ms-5 text-light">Population: {store.singlePlanet.population}</div>
-                    <div className="fs-5 ms-5 text-light">Climate: {store.singlePlanet.climate}</div>
-                    <div className="fs-5 ms-5 text-light">Terrain: {store.singlePlanet.terrain}</div>
-                    <div className="fs-5 ms-5 text-light">Surface Water{store.singlePlanet.surface_water}</div>
+                    <div className="fs-5 ms-5 text-light">Diametro: {store.singlePlanet.diameter}</div>
+                    <div className="fs-5 ms-5 text-light">Periodo de Rotacion: {store.singlePlanet.rotation_period}</div>
+                    <div className="fs-5 ms-5 text-light">Periodo de la Órbita: {store.singlePlanet.orbital_period}</div>
+                    <div className="fs-5 ms-5 text-light">Gravedad: {store.singlePlanet.gravity}</div>
+                    <div className="fs-5 ms-5 text-light">Poblacion: {store.singlePlanet.population}</div>
+                    <div className="fs-5 ms-5 text-light">Clima: {store.singlePlanet.climate}</div>
+                    <div className="fs-5 ms-5 text-light">Terreno: {store.singlePlanet.terrain}</div>
+                    <div className="fs-5 ms-5 text-light">Superficie del Agua: {store.singlePlanet.surface_water}</div>
                     <Link to="/">
                         <button className="fs-5 ms-5 mt-5 text-light btn btn-primary">Return Home</button>
                     </Link>

@@ -23,14 +23,13 @@ const SingleCharacterView = props => {
                 </div>
                 <div className="col-9">
                     <div className="fs-3 ms-5 fw-bold mb-3 text-warning border-bottom border-warning border-5">{store.person.name}</div>
-                    <div className="fs-5 ms-5 text-light">Birth Year: {store.person.birth_year} </div>
-                    <div className="fs-5 ms-5 text-light">Height: {store.person.height}cm</div>
-                    <div className="fs-5 ms-5 text-light">Weight: {store.person.mass}kg</div>
-                    <div className="fs-5 ms-5 text-light">Gender: {store.person.gender}</div>
-                    <div className="fs-5 ms-5 text-light">Hair Color: {store.person.hair_color}</div>
-                    <div className="fs-5 ms-5 text-light">Eye Color: {store.person.eye_color}</div>
-                    <div className="fs-5 ms-5 text-light">Skin Color: {store.person.skin_color} </div>
-                    <div className="fs-5 ms-5 text-light">Homeworld: </div>
+                    <div className="fs-5 ms-5 text-light">Año de Nacimiento: {store.person.birth_year} </div>
+                    <div className="fs-5 ms-5 text-light">Altura: {store.person.height}cm</div>
+                    <div className="fs-5 ms-5 text-light">Peso: {store.person.mass}kg</div>
+                    <div className="fs-5 ms-5 text-light">Genero: {store.person.gender}</div>
+                    <div className="fs-5 ms-5 text-light">Color de Pelo: {store.person.hair_color}</div>
+                    <div className="fs-5 ms-5 text-light">Color de Ojosr: {store.person.eye_color}</div>
+                    <div className="fs-5 ms-5 text-light">Color de Piel: {store.person.skin_color} </div>
                     <Link to="/">
                         <button className="fs-5 ms-5 mt-5 text-dark btn btn-warning">Return Home</button>
                     </Link>
