@@ -28,7 +28,7 @@ const CharSection = props => {
                             <div className="card-body ">
                                 <div className="d-flex justify-content-between">
                                     <Link to={"/SingleCharacterView/" + i.uid} >
-                                        <button className="btn btn-warning" >Read more</button>
+                                        <button className="btn btn-warning" >Leer más</button>
                                     </Link>
                                     <button className="btn btn-warning" onClick={() => actions.addToFavorites(i.uid, "/SingleCharacterView/" + i.uid, i.name,i.type,i.index)}>
                                         <i className={heartfav}/>

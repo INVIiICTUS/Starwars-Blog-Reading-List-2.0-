@@ -27,7 +27,7 @@ const PlanetsSection = props => {
                         <div className="card-body ">
                             <div className="d-flex justify-content-between">
                                 <Link to={"/SinglePlanetView/" + i.uid}>
-                                    <button className="btn btn-primary">Read more</button>
+                                    <button className="btn btn-primary">Leer Más</button>
                                 </Link>
                                 <button className="btn btn-primary" onClick={() => actions.addToFavorites(i.uid, "/SinglePlanetView/" + i.uid, i.name,i.type,i.index)}>
                                     <i className={heartfav} />

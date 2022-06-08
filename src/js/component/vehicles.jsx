@@ -29,7 +29,7 @@ const VehicleSection = props => {
                             <div className="card-body ">
                                 <div className="d-flex justify-content-between">
                                     <Link to={"/SingleVehicleView/"  + i.uid}>
-                                        <button className="btn btn-danger" >Read more</button>
+                                        <button className="btn btn-danger" >Leer Más</button>
                                     </Link>
                                     <button className="btn btn-danger" onClick={() => actions.addToFavorites(i.uid, "/SingleVehicleView/" + i.uid, i.name,i.type,i.index)}>
                                         <i className={heartfav}/>
