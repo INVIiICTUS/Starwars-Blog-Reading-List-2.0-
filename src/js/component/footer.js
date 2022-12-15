@@ -1,10 +1,16 @@
-import React, { Component } from "react";
+import React, {
+    Component
+} from "react";
 
-export const Footer = () => (
-	<footer className="footer mt-auto py-3 text-center">
-		<p>
-			Hecho por mi mismo <i className="fa fa-heart text-danger" /> by{" "}
-			<a href="http://www.4geeksacademy.com">INVIiICTUS</a>
-		</p>
-	</footer>
+export const Footer = () => ( <
+    footer className = "footer mt-auto py-3 text-center" >
+    <
+    p >
+    <
+    i className = "fa fa-heart text-danger" / > by {
+        " "
+    } <
+    a href = "https://www.linkedin.com/in/j-enrique-ar%C3%A9s-lorenzo-6a636a148/" > INVIiICTUS < /a> < /
+    p > <
+    /footer>
 );
